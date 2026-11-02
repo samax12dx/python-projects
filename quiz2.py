@@ -1,0 +1,35 @@
+#برنامج ادخال 
+m1=int(input('Enter mark 1 : '))
+m2=int(input('Enter mark 2 : '))
+m3=int(input('Enter mark 3 : '))
+m4=int(input('Enter mark 4 : '))
+print(m1+m2+m3+m4)
+print((m1+m2+m3+m4)/4)
+print('\n')
+num1=float(input('Enter number1 :' ))
+num2=float(input('Enter number2 : '))
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2)
+print('\n')
+g='100'
+g=int(g)
+g+=50
+print(g)
+print('\n')
+a=100
+b=50
+c=25
+d=(a>b)
+print(d)
+e=(b<c)
+print(e)
+f=(a==100)
+print(f)
+h=(b!=c)
+print(h)
+print('\n')
+num10=int(input('Enter number : '))
+s=(num10>10 and num10< 100)
+print(s)
